@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusHub - Connect, Share, Engage</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-network-wired"></i>
+            NexusHub
+        </div>
+        <div class="nav-links">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">Explore</a>
+            <a href="#" class="nav-link">Messages</a>
+            <a href="#" class="nav-link">Notifications</a>
+            <a href="#" class="nav-link">Profile</a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="menu-item">
+                <i class="fas fa-home"></i>
+                <span>Home Feed</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-user-friends"></i>
+                <span>Friends</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-users"></i>
+                <span>Communities</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Events</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-video"></i>
+                <span>Video Calls</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-bookmark"></i>
+                <span>Saved</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Stories -->
+            <div class="stories">
+                <div class="story">
+                    <img src="https://picsum.photos/120/200?random=1" alt="Story 1">
+                    <div class="story-user">Your Story</div>
+                </div>
+                <div class="story">
+                    <img src="https://picsum.photos/120/200?random=2" alt="Story 2">
+                    <div class="story-user">Alex Smith</div>
+                </div>
+                <div class="story">
+                    <img src="https://picsum.photos/120/200?random=3" alt="Story 3">
+                    <div class="story-user">Emma Wilson</div>
+                </div>
+                <div class="story">
+                    <img src="https://picsum.photos/120/200?random=4" alt="Story 4">
+                    <div class="story-user">John Doe</div>
+                </div>
+            </div>
+
+            <!-- Create Post -->
+            <div class="create-post">
+                <textarea class="post-input" placeholder="What's on your mind?"></textarea>
+                <div class="post-actions">
+                    <div class="post-type">
+                        <div class="post-type-btn">
+                            <i class="fas fa-image" style="color: #22C55E;"></i>
+                            <span>Photo</span>
+                        </div>
+                        <div class="post-type-btn">
+                            <i class="fas fa-video" style="color: #EF4444;"></i>
+                            <span>Video</span>
+                        </div>
+                        <div class="post-type-btn">
+                            <i class="fas fa-map-marker-alt" style="color: #3B82F6;"></i>
+                            <span>Location</span>
+                        </div>
+                    </div>
+                    <button class="post-btn">Post</button>
+                </div>
+            </div>
+
+            <!-- Feed Posts -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://picsum.photos/50/50?random=5" alt="User" class="post-avatar">
+                    <div class="post-user-info">
+                        <h4>Sarah Johnson</h4>
+                        <span>2 hours ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Just finished my latest project! 🎨 Really excited to share it with everyone.</p>
+                    <img src="https://picsum.photos/600/400?random=6" alt="Post" class="post-image">
+                </div>
+                <div class="post-actions-bar">
+                    <div class="action-btn">
+                        <i class="far fa-heart"></i>
+                        <span>2.5k</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="far fa-comment"></i>
+                        <span>482</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="far fa-share-square"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://picsum.photos/50/50?random=7" alt="User" class="post-avatar">
+                    <div class="post-user-info">
+                        <h4>Michael Chen</h4>
+                        <span>5 hours ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Beautiful sunset at the beach today! 🌅 #NatureLover</p>
+                    <img src="https://picsum.photos/600/400?random=8" alt="Post" class="post-image">
+                </div>
+                <div class="post-actions-bar">
+                    <div class="action-btn">
+                        <i class="far fa-heart"></i>
+                        <span>1.8k</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="far fa-comment"></i>
+                        <span>324</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="far fa-share-square"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="chat-header">
+                <h3>Online Friends</h3>
+                <i class="fas fa-video"></i>
+            </div>
+            <div class="online-users">
+                <div class="user-item">
+                    <div class="user-avatar">
+                        <img src="https://picsum.photos/40/40?random=9" alt="User">
+                        <div class="online-indicator"></div>
+                    </div>
+                    <div class="user-info">
+                        <h4>Alex Smith</h4>
+                        <span>Active now</span>
+                    </div>
+                </div>
+                <div class="user-item">
+                    <div class="user-avatar">
+                        <img src="https://picsum.photos/40/40?random=10" alt="User">
+                        <div class="online-indicator"></div>
+                    </div>
+                    <div class="user-info">
+                        <h4>Emma Wilson</h4>
+                        <span>Active now</span>
+                    </div>
+                </div>
+                <div class="user-item">
+                    <div class="user-avatar">
+                        <img src="https://picsum.photos/40/40?random=11" alt="User">
+                        <div class="online-indicator"></div>
+                    </div>
+                    <div class="user-info">
+                        <h4>John Doe</h4>
+                        <span>Active now</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
